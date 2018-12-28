@@ -11,5 +11,10 @@ public class controllerService {
     public String greeting(){
         return "Hello, I'm Client";
     }
+    
+    @RequestMapping(value = "/holi", method = RequestMethod.GET)
+    public String greet(){
+        return "Hello, I'm Client";
+    }
 
 }
