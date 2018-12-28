@@ -16,5 +16,10 @@ public class controllerService {
     public String greet(){
         return "Hello, I'm Client";
     }
+    
+    @RequestMapping(value = "/rest", method = RequestMethod.GET)
+    public String saludo(){
+        return "Hello, I'm Client";
+    }
 
 }
